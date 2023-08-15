@@ -8,11 +8,7 @@ import { testimonials } from "../constants";
 import  "../index.css";
 const FeedbackCard = ({
   index,
-  testimonial,
-  name,
-  designation,
-  company,
-  image,
+ 
 }) => (
 
   <motion.div
@@ -23,10 +19,10 @@ const FeedbackCard = ({
       <div className="None">
             <div className="flex gap-4">
                 <select className="font-bold text-1.5rem p-1 bg-white text-black rounded-md" name="" id="input_currency">
-                                <option value="EUR" selected>EUR</option>
+                                <option value="EUR" >EUR</option>
                                 <option value="GBP">GBP</option>
                                 <option value="USD">USD</option>
-                                <option value="TRY">TRY</option>               
+                                <option value="TRY" selected>TRY</option>               
                 </select>
                 <input type="text"  className="color-zinc-950 mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-full rounded-md sm:text-sm focus:ring-1"/>
             </div>
@@ -80,7 +76,7 @@ const Feedbacks = () => {
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px] items-center flex flex-col justify-center`}>
       <div
-        className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px] items-center`}
+        className={`bg-black-100 rounded-2xl ${styles.padding} min-h-[300px] items-center`}
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>Canlı </p>

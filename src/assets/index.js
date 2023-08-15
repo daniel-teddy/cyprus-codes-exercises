@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import musmerlogo from "./musmerlogo.png";
 
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -11,13 +12,13 @@ import dimension from "./tech/euroSpinning.gif";
 import threejs from "./tech/threejs.svg";
 
 
-import orangeup from "./tech/orangeup.png"
-import orangeupother from "./tech/orangeupother.png"
+import orangeup from "./tech/orangeup.png";
+import orangeupother from "./tech/orangeupother.png";
 
+import musmerpiccc from "./musmerpic3.jpg";
+import musmerpicc from "./musmerpic2.png";
+import musmerpic from "./musmer1.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import dollar from "./tech/dollar.png"
 import Euro from "./tech/Euro.png";
 import yen from "./tech/yen.png";
@@ -33,15 +34,17 @@ import south from "./tech/south.png"
 export {
   
   logo,
-  
+  musmerlogo,
+
   github,
   menu,
   close,
   threejs,
  
-  carrent,
-  jobit,
-  tripguide,
+  musmerpiccc,
+  musmerpicc,
+  musmerpic,
+
   dollar,
   Euro,
   yen,

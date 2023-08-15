@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { services } from "../constants";
 import { styles } from "../styles";
 import { fadeIn } from "../utils/motion";
-import Tilt from "react-tilt";
 import { SectionWrapper } from "../hoc";
 import { dimension,
   dolargif,
@@ -40,18 +39,14 @@ import { dimension,
 ); */
 
 const MyServiceCard = ({ index, buying, seling,  icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
+  <div className='xs:w-[250px] w-full'>
      
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
+      
         className='bg-gray-900 rounded-[20px] py-5 px-12 min-h-[180px] md:px-2 flex justify-evenly items-center flex-col'
       >
         <img
@@ -66,7 +61,7 @@ const MyServiceCard = ({ index, buying, seling,  icon }) => (
       </div>
       
     </motion.div>
-  </Tilt>
+  </div>
 );
 const Hero = () => {
   const [exchangeRatesUsd, setExchangeRatesUsd] = useState({});
@@ -140,7 +135,7 @@ const Hero = () => {
     
        
         <div className="mt-16">
-          <h1 className={`${styles.heroHeadText} text-white`}>
+          <h1 className={`${styles.heroHeadText} text-white font-black text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2`}>
             Musmer <span className='text-[rgb(255,112,13)]'>Exchange</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>

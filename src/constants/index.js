@@ -1,7 +1,4 @@
 import {
-  carrent,
-  jobit,
-  tripguide,
   dollar,
   Euro,
   yen,
@@ -19,6 +16,9 @@ import {
   Poundgif,
   orangeup,
   orangeupother,
+  musmerpic,
+  musmerpicc,
+  musmerpiccc,
  
 } from "../assets";
 
@@ -44,21 +44,6 @@ export const navLinks = [
 let services = [
   {
     title: "Dollar", 
-    icon: dolargif,
-  },
-  {
-    title: "Euro",
-    icon: dimension,
-  },
-  {
-    title: "Pound",
-    icon: Poundgif,
-  },
- 
-];
-let RedServices = [
-  {
-    title: "Dolar", 
     icon: dolargif,
   },
   {
@@ -140,7 +125,7 @@ const experiences = [
     ],
   },
   {
-    title: "Günce Döviz kurları Nelerdir",
+    title: "Güncel Döviz kurları Nelerdir",
     company_name: "",
     icon: orangeupother,
     iconBg: "#E6DEDD",
@@ -175,18 +160,16 @@ const testimonials = [
 
   {
     testimonial:
-      "Güvenilir ve güler yüzlü hizmet ile sizin memnuniyetiniz için çalışıyoruz.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Döviz makinesi",
+    name: "Döviz makinesi",
+   
   },
  
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Uygun Kurlar",
     description:
       "Siz değerli müşterilerimiz için döviz piyasasındaki en uygun kurları buluyor ve işlem yapıyoruz",
     tags: [
@@ -203,13 +186,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: musmerpic,
+    //source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Memnuniyet",
     description:
-      "Güvenilir ve güler yüzlü hizmet ile sizin memnuniyetiniz için çalışıyoruz.",
+      "Güvenilir ve güler yüzlü hizmet ile sizin memnuniyetiniz için her gün azimle çalışıyoruz.",
     tags: [
       {
         name: "Çalışkan",
@@ -224,11 +207,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: musmerpicc,
+    //source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Müşteri Önemi",
     description:
       "Büromuza giren her müşterimiz bizim için değerlidir. Müşterilerimizin mutluluğu için hizmetinizdeyiz.",
     tags: [
@@ -245,8 +228,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: musmerpiccc,
+    //source_code_link: "https://github.com/",
   },
 ];
 

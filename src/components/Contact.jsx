@@ -116,7 +116,7 @@ const Contact = () => {
 
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary  ease-in-out hover:bg-blue-500 ease-in-out duration-300 delay-150'
           >
             {loading ? "Gönderiliyor..." : "Gönder"}
           </button>
